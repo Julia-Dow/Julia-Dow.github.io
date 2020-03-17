@@ -28,9 +28,9 @@ a:hover{
     box-shadow: 0px 5px 20px black;
     padding :120px 100px;
     color:black;
-    font-weight: bolder;
+    font-weight: 900;
     background-image: url(ouchForTheEyes.gif);
-    font-size: 20px;
+    font-size: 25px;
     border-radius: 100%;
 }
 
