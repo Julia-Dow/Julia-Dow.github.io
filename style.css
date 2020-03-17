@@ -9,7 +9,7 @@ body {
     display:flex;
     justify-content: center;
     align-items: center;
-    font-family: Verdana, Geneva, sans-serif;
+    
 }
 
   a{
@@ -20,7 +20,7 @@ body {
     box-shadow: 0px 5px 20px black;
     border-radius:5%;
     transition: padding 0.2s;
-    
+    font-family: Verdana, Geneva, sans-serif;
 }
 
 a:hover{
