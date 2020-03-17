@@ -1,6 +1,36 @@
- body {
-    background-color: aquamarine;
-    Display: flex; 
-    Text-align:center;
+html{
+    height: 100%;
+} 
+body {
+    min-height: 100%;
+    padding:0;
+    margin:0;
+    background-color: rgb(27, 27, 27);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
 }
+
+  a{
+    text-decoration: none;
+    color:white;
+    padding:20px 40px;
+    background-color: black;
+    box-shadow: 0px 5px 20px black;
+    border-radius:5%;
+    transition: padding 0.1s;
+    
+}
+
+a:hover{
+    background-color: aquamarine;
+    box-shadow: 0px 5px 20px black;
+    padding :100px 120px;
+    color:black;
+    font-weight: bolder;
+    background-image: url(ouchForTheEyes.gif);
+    font-size: 20px;
+}
+
 
