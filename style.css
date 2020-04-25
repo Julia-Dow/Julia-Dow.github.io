@@ -1,37 +1,35 @@
-html{
-    height: 100%;
-} 
-body {
-    min-height: 100%;
-    padding:0;
-    margin:0;
-    background-color: rgb(27, 27, 27);
-    display:flex;
+body{
+    background-color: #dcdbe1;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.about_me p{
+    display: flex;
     justify-content: center;
-    align-items: center;
-    
 }
 
-  a{
-    text-decoration: none;
-    color:white;
-    padding:20px 40px;
-    background-color: black;
-    box-shadow: 0px 5px 20px black;
-    border-radius:5%;
-    transition: padding 0.2s;
-    font-family: "Times New Roman", Times, serif;
+.about_me h1{
+    display: flex;
+    justify-content: center;
 }
 
-a:hover{
-    background-color: aquamarine;
-    box-shadow: 0px 5px 20px black;
-    padding :120px 100px;
-    color:black;
-    font-weight: bolder;
-    background-image: url(ouchForTheEyes.gif);
-    font-size: 25px;
-    border-radius: 100%;
+.about_me p{
+    display: flex;
+    justify-content: center;
 }
+
+.past_employment{
+    margin:10px;
+    padding: 10px;
+    border: 2px solid #7dbbb9;
+}
+
+.education{
+    margin:10px;
+    padding: 10px;
+    border: 2px solid #7dbbb9;
+}
+
+
 
 
