@@ -1,11 +1,30 @@
 body{
-    background-color: #dcdbe1;
+    background-color: #c5d7d9;
     font-family: Arial, Helvetica, sans-serif;
+    color: #2a5d68;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(311443.png);
+    background-size: 200px 200px;
+  
+}
+
+main{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #dcdbe1;
+    max-width: 800px;
+    padding: 20px;
+    max-height: 750px;
+    border-radius:  5px;
 }
 
 .about_me p{
     display: flex;
     justify-content: center;
+    padding: 0 10px;
 }
 
 .about_me h1{
@@ -19,15 +38,17 @@ body{
 }
 
 .past_employment{
-    margin:10px;
+    margin:10px 0;
     padding: 10px;
     border: 2px solid #7dbbb9;
+    border-radius:  5px;
 }
 
 .education{
-    margin:10px;
+    margin:10px 0;
     padding: 10px;
     border: 2px solid #7dbbb9;
+    border-radius:  5px;
 }
 
 
