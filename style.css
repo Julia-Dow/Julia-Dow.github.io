@@ -1,35 +1,53 @@
 body{
-    background-color: #c5d7d9;
+    background-color: #f8eff1;
     font-family: Arial, Helvetica, sans-serif;
-    color: #2a5d68;
-    display:flex;
-    justify-content: center;
+    color: #220800;
+    flex-direction: column;
+    margin:10px;
+    display: flex;
     align-items: center;
-    background-image: url(311443.png);
-    background-size: 200px 200px;
-  
+}
+
+nav{
+    width: 100%;
+    background-color: #e7a9b1;
+    top: 0;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-around;
+    padding:20px 0;
+    margin:0;
+}
+
+img{
+    max-width: 600px;
+    width:auto;
+    height: auto;
 }
 
 main{
     display:flex;
     justify-content: center;
     flex-direction: column;
-    background-color: #dcdbe1;
-    max-width: 800px;
+    background-color: white;
     padding: 20px;
-    max-height: 750px;
     border-radius:  5px;
+    max-width: 800px;
 }
 
 .about_me p{
     display: flex;
     justify-content: center;
-    padding: 0 10px;
 }
 
 .about_me h1{
     display: flex;
     justify-content: center;
+    margin:20px;
 }
 
 .about_me p{
@@ -38,17 +56,17 @@ main{
 }
 
 .past_employment{
-    margin:10px 0;
     padding: 10px;
-    border: 2px solid #7dbbb9;
+    border: 2px solid #e7a9b1;
     border-radius:  5px;
+    margin: 10px 0;
 }
 
 .education{
-    margin:10px 0;
     padding: 10px;
-    border: 2px solid #7dbbb9;
+    border: 2px solid #e7a9b1;
     border-radius:  5px;
+    margin: 10px 0;
 }
 
 
