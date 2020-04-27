@@ -1,0 +1,61 @@
+body{
+    background-color: #f8eff1;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #220800;
+    flex-direction: column;
+    margin:10px;
+    display: flex;
+    align-items: center;
+}
+
+main{
+    background-color: white;
+    padding: 20px;
+    border-radius:  5px;
+    max-width: 800px;
+    width:800px;
+}
+
+header p{
+    display: flex;
+    justify-content: center;
+}
+
+header h1{
+    display: flex;
+    justify-content: center;
+    margin:20px;
+}
+
+nav{
+    background-color: #e7a9b1;
+}
+
+nav{
+    width: 100%;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-around;
+    padding:20px 0;
+    margin:0;
+}
+
+nav a{
+    text-decoration: none;
+    color: #220800;
+}
+
+.past_employment{
+    border: 2px solid #e7a9b1;
+    border-radius:  5px;
+
+}
+
+.education{
+    border: 2px solid #e7a9b1;
+    border-radius:  5px;
+}
