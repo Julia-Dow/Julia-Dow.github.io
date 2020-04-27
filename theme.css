@@ -3,7 +3,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     color: #220800;
     flex-direction: column;
-    margin:10px;
+    margin:0px;
     display: flex;
     align-items: center;
 }
@@ -24,14 +24,11 @@ header p{
 header h1{
     display: flex;
     justify-content: center;
-    margin:20px;
+    margin: 0 0 20px 0;
 }
 
 nav{
-    background-color: #e7a9b1;
-}
-
-nav{
+    background-color: #e7a9b1;    
     width: 100%;
 }
 
