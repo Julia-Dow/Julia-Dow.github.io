@@ -1,7 +1,29 @@
+.influence{
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3,auto );
+    grid-gap:10px;
+    grid-template-areas: 
+    "h2"
+    ".visual_basic"
+    ".game_design";
+}
+
+h2{
+    margin: 10px 0 0 0;
+}
+
 .visual_basic{
  border: 2px solid #e7a9b1;
  border-radius:  5px;
  padding: 10px;
+ display: grid;
+ grid-template-columns: 700px 1fr;
+ grid-template-rows: repeat(3,auto);
+ grid-template-areas: 
+ "h3 img"
+ "p1 img"
+ ".second_part";
 }
 
 .game_design{
@@ -10,4 +32,17 @@
     padding: 10px;
 }
 
+.visual_basic img{
+    max-width: 100%;
+    grid-area: img;
+}
+
+.visual_basic h3{
+    grid-area: h3;
+}
+
+.visual_basic p{
+    grid-area: p1;
+    padding: 0 10px 0 0;
+}
 
