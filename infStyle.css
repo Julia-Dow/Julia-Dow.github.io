@@ -18,12 +18,11 @@ h2{
  border-radius:  5px;
  padding: 10px;
  display: grid;
- grid-template-columns: 700px 1fr;
+ grid-template-columns: 600px 1fr;
  grid-template-rows: repeat(3,auto);
  grid-template-areas: 
- "h3 img"
- "p1 img"
- ".second_part";
+ "h3 h3"
+ "p1 img";
 }
 
 .game_design{
@@ -44,5 +43,12 @@ h2{
 .visual_basic p{
     grid-area: p1;
     padding: 0 10px 0 0;
+    margin:0;
+}
+
+.riddles{
+    border: 2px solid #e7a9b1;
+    border-radius:  5px;
+    padding: 10px;
 }
 
