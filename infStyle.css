@@ -19,10 +19,11 @@ h2{
  padding: 10px;
  display: grid;
  grid-template-columns: 600px 1fr;
- grid-template-rows: repeat(2,auto);
+ grid-template-rows: repeat( 3,auto);
  grid-template-areas: 
  "h3 h3"
- "p1 img";
+ "p1 img"
+ "main_image main_image";
 }
 
 .game_design{
@@ -52,6 +53,10 @@ h2{
 }
 img{
   max-width: 100%;  
+}
+
+.main_image{
+    grid-area: main_image;
 }
 
 
