@@ -47,7 +47,22 @@ nav a{
     color: #220800;
 }
 
+h1{
+    font-size: 32px ;
+}
+
 h2{
     display:flex;
     justify-content: center;
+    font-size:24px;
 }
+
+h3{
+    font-size: 18.72px;
+}
+
+p{
+    font-size:16px;
+}
+
+
