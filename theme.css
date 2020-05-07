@@ -10,11 +10,12 @@ body{
 }
 
 main{
+    display: flex;
+    flex-direction: column;
     background-color: white;
     padding: 20px;
     border-radius:  5px;
     max-width: 800px;
-    width:800px;
 }
 
 header p{
