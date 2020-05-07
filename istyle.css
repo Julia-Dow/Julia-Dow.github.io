@@ -24,6 +24,7 @@ main{
 header p{
     display: flex;
     justify-content: center;
+    line-height: 25px;
 }
 
 header h1{
