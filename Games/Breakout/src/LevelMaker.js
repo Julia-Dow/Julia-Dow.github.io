@@ -90,7 +90,7 @@ export default class LevelMaker {
 					brick.tier = solidTier;
 				}
 
-				if(Brick.lockedStatus(5)){
+				if(Brick.lockedStatus(7)){
 					brick.isLocked = true
 				}
 
