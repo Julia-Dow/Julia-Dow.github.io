@@ -1,51 +1,109 @@
 body{
-    flex-direction: column;
-    display: flex;
-    align-items: center;
-}
-
-img{
-    object-fit: cover;
-    max-width: 100%;
-}
-
-main{
-    display:grid;
-    grid-template-columns: 800px;
-    grid-template-rows: repeat(6,auto );
-    max-width: 800px;
+    margin: 0;
+    background-color: #222222;
+    color: pink;
+    letter-spacing: 3px;
+    display: grid;
+    grid-template-columns: 20px 1fr 20px 1fr 20px;
+    grid-template-rows: auto auto 20px 1fr;
     grid-template-areas: 
-    ".about_me"
-    "past_employment"
-    "education"
-    "img";
+      "nav nav nav  nav nav"
+      ". . art . ."   
+      ". . . . ."
+      ". artText . lime . "
+      
+
 }
 
-header p{
-    display: flex;
+p{
+    letter-spacing: 2px;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 1.6;
+    padding: 0;
+    margin: 0;
+    font-family: Verdana;
+}
+
+nav{
+    grid-area: nav;
+    margin: 0;
+    padding: 0;
+    background-color: #181818;
+}
+
+h1{
+    margin: 0;
+    padding: 20px;
+    font-family: Okay;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+h3{  
+    margin: 0;
+    padding: 20px;
+    font-family: BebasNeue;
+    font-size: 30px;
+    font-weight: 500;
+    
+}
+
+.art{
+    grid-area: art;
+    justify-self: center;
+}
+
+.lime{
+    grid-area: lime;
     justify-content: center;
-    line-height: 25px;
+    position: relative;
+    display: inline-block;
+}
+.lime img{
+    display: block;
+    max-width: 100%;
+    height: auto; 
+    display: block;
+    width: 100%;
 }
 
-header h1{
-    display: flex;
+.artText{
+    grid-area: artText;
+}
+
+.lime{   
+    transition: 10s;
     justify-content: center;
-    margin:20px;
+    position: relative;
+    display: inline-block;
+    background: radial-gradient(circle, rgba(0,0,0,0) 0%, pink 100%);
 }
 
-.past_employment{
-    border: 2px solid #e7a9b1;
-    border-radius:  5px;
-    padding: 10px;
-    margin: 10px 0;
+.lime:hover{
+    background: radial-gradient(circle, rgba(0,0,0,0) 100%, pink 100%);
 }
 
-.education{
-    border: 2px solid #e7a9b1;
-    border-radius:  5px;
-    padding: 10px;
-    margin: 10px 0;
+.lime img{
+    display: block;
+    max-width: 100%;
+    height: auto; 
+    display: block;
+    width: 100%;
+    opacity: 0.75;
 }
+
+@font-face {
+    font-family: Okay;
+    src: url(Assets/okay-font/Okay-mjYx.ttf);
+}
+
+@font-face {
+    font-family: BebasNeue;
+    src: url(Assets/Bebas_Neue/BebasNeue-Regular.ttf);
+}
+
+
 
 
 
