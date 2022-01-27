@@ -3,33 +3,57 @@ body{
     background-color: #222222;
     color: pink;
     letter-spacing: 3px;
-    display: grid;
-    grid-template-columns: 20px 1fr 20px 1fr 20px;
-    grid-template-rows: auto auto 20px 1fr;
-    grid-template-areas: 
-      "nav nav nav  nav nav"
-      ". . art . ."   
-      ". . . . ."
-      ". artText . lime . "
-      
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main{
+    display: flex;
+    max-width: 60%;
+    flex-direction: column;
+    align-items: center;
 }
 
 p{
     letter-spacing: 2px;
     font-size: 16px;
-    text-align: justify;
+    text-align: center;
     line-height: 1.6;
     padding: 0;
     margin: 0;
     font-family: Verdana;
 }
 
-nav{
+header{
+    align-self: stretch;
     grid-area: nav;
     margin: 0;
     padding: 0;
     background-color: #181818;
+}
+
+nav{
+    align-self: stretch;
+    display:flex;
+    justify-content: space-around;
+    grid-area: nav;
+    margin: 0;
+    padding: 0;
+    background-color: #181818b6;
+    flex-direction: row;
+    padding: 10px
+    
+}
+
+a{
+    font-family: BebasNeue;
+    font-size: larger;
+    color: pink;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
 }
 
 h1{
@@ -55,17 +79,18 @@ h3{
 }
 
 .lime{
+    max-width: 70%;
     grid-area: lime;
     justify-content: center;
     position: relative;
     display: inline-block;
+    margin:20px
 }
 .lime img{
     display: block;
-    max-width: 100%;
     height: auto; 
     display: block;
-    width: 100%;
+
 }
 
 .artText{
@@ -77,11 +102,11 @@ h3{
     justify-content: center;
     position: relative;
     display: inline-block;
-    background: radial-gradient(circle, rgba(0,0,0,0) 0%, pink 100%);
+    background: radial-gradient(circle, rgba(0,0,0,0) 100%, pink 100%);
 }
 
-.lime:hover{
-    background: radial-gradient(circle, rgba(0,0,0,0) 100%, pink 100%);
+.lime:hover{  
+    background: radial-gradient(circle, rgba(0,0,0,0) 0%, pink 100%);
 }
 
 .lime img{
