@@ -78,26 +78,35 @@ h3{
     justify-self: center;
 }
 
-.lime{
+
+.lime img{
+    display: block;
+    height: auto; 
+    display: block;
+}
+
+.Cap_image{
     max-width: 70%;
-    grid-area: lime;
     justify-content: center;
     position: relative;
     display: inline-block;
     margin:20px
 }
-.lime img{
+
+.Cap_image img{
     display: block;
     height: auto; 
     display: block;
-
 }
+
 
 .artText{
     grid-area: artText;
 }
 
-.lime{   
+.lime{ 
+    margin:20px;
+    max-width: 70%;  
     transition: 10s;
     justify-content: center;
     position: relative;
