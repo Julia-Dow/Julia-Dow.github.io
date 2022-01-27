@@ -78,13 +78,6 @@ h3{
     justify-self: center;
 }
 
-
-.lime img{
-    display: block;
-    height: auto; 
-    display: block;
-}
-
 .Cap_image{
     max-width: 70%;
     justify-content: center;
@@ -95,8 +88,11 @@ h3{
 
 .Cap_image img{
     display: block;
+    max-width: 100%;
     height: auto; 
     display: block;
+    width: 100%;
+    opacity: 0.75;
 }
 
 
